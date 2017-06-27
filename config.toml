@@ -1,0 +1,32 @@
+baseurl = "http://openxtra.org/"
+title = "OPENXTRA Freestuff"
+theme = "hugo-universal-theme"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+googleAnalytics = ""
+
+paginate = 10
+
+[menu]
+
+# Main navigation menu
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url  = "/"
+    weight = 2
+
+[[menu.main]]
+    name = "Articles"
+    url  = "/"
+    weight = 3
+
+[params]
+
+    copyright = "Copyright (&copy;) 2003 - 2017, OPENXTRA Limited. All rights reserved."
+    style = "default"
