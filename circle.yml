@@ -24,6 +24,7 @@ test:
   override:
 #    - sassc sass/all.sass static/all.css --style compressed
     - hugo -v
+    - tar -czvf $CIRCLE_ARTIFACTS/openxtra-org.tar.gz public
 
 #deployment:
 #  s3up:

@@ -1,6 +1,5 @@
 baseurl = "http://openxtra.org/"
 title = "OPENXTRA Freestuff"
-#theme = "hugo-universal-theme"
 theme = "hugo-bootstrap-premium"
 languageCode = "en-us"
 defaultContentLanguage = "en"
