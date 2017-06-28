@@ -1,6 +1,7 @@
 baseurl = "http://openxtra.org/"
 title = "OPENXTRA Freestuff"
-theme = "hugo-universal-theme"
+#theme = "hugo-universal-theme"
+theme = "hugo-bootstrap-premium"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 googleAnalytics = ""
@@ -18,15 +19,18 @@ paginate = 10
 
 [[menu.main]]
     name = "Projects"
-    url  = "/"
+    url  = "/project/"
     weight = 2
 
 [[menu.main]]
     name = "Articles"
-    url  = "/"
+    url  = "/article/"
     weight = 3
 
 [params]
 
     copyright = "Copyright (&copy;) 2003 - 2017, OPENXTRA Limited. All rights reserved."
     style = "default"
+   
+    date_format = "2006-01-02"
+    
