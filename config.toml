@@ -27,9 +27,10 @@ paginate = 10
     weight = 3
 
 [params]
-
-    copyright = "Copyright (&copy;) 2003 - 2017, OPENXTRA Limited. All rights reserved."
-    style = "default"
+copyright = "Copyright (&copy;) 2003 - 2017, OPENXTRA Limited. All rights reserved."
+style = "paper"
    
-    date_format = "2006-01-02"
-    
+date_format = "2006-01-02"
+
+# Switch off MathJax
+mathjax = ""
