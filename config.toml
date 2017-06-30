@@ -34,3 +34,7 @@ date_format = "2006-01-02"
 
 # Switch off MathJax
 mathjax = ""
+
+[params.navigation]
+brand = "OPENXTRA Freestuff"
+
