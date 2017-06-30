@@ -7,6 +7,20 @@ googleAnalytics = ""
 
 paginate = 10
 
+[params]
+switchlang = false
+BrandImage = "/img/openxtra-logo.png"
+brand = "OPENXTRA Freestuff"
+copyright = "Copyright (&copy;) 2003 - 2017, OPENXTRA Limited. All rights reserved."
+style = "paper"
+date_format = "2006-01-02"
+# Switch off MathJax
+mathjax = ""
+
+# Select a syntax highlight.
+# Check the static/css/highlight directory for options.
+highlight = "default"
+
 [menu]
 
 # Main navigation menu
@@ -25,16 +39,3 @@ paginate = 10
     name = "Articles"
     url  = "/article/"
     weight = 3
-
-[params]
-copyright = "Copyright (&copy;) 2003 - 2017, OPENXTRA Limited. All rights reserved."
-style = "paper"
-   
-date_format = "2006-01-02"
-
-# Switch off MathJax
-mathjax = ""
-
-[params.navigation]
-brand = "OPENXTRA Freestuff"
-
