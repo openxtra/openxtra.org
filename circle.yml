@@ -20,4 +20,4 @@ test:
   pre:
   override:
     - hugo -v
-    - tar -czvf $CIRCLE_ARTIFACTS/openxtra-org.tar.gz $CIRCLE_BUILD_DIR/public
+    - pushd $CIRCLE_BUILD_DIR/public && tar -czvf $CIRCLE_ARTIFACTS/openxtra-org.tar.gz * && popd
